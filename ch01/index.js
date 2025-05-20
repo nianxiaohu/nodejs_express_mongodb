@@ -1,4 +1,5 @@
 const http = require('http');
+const helloworld = 'Hello Xiaohu';
 const fs = require('fs');
 const homePage = fs.readFileSync('index.html');
 const aboutPage = fs.readFileSync('about.html');
