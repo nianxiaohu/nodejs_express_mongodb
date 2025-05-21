@@ -9,3 +9,44 @@ callback function
 req--request from xxx
 res--response to give back
 body of function
+node index.js
+=== strict equality operator
+
+
+CMD:
+npm init
+npm install express
+node index.js(Can AI figure out the order of commands?)
+
+NODE.js package:
+http
+fs
+epxress
+path
+
+KEY:
+package.json
+pacakge-lock.json
+npmjs.com
+Node Package Manager---npm
+express
+
+
+
+QUESTIONS:
+what is the purpose of require function?
+what is serve-static?
+
+
+CODE EXPLANATION:
+mixin(app, proto, false)
+exports = module.exports = createApplication
+EventEmitter.prototype
+proto
+init()
+app: { configurable: true, enumerable: true, writable: true, value: app }
+Object.create
+
+
+
+JAVASCRIPT:
