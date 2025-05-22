@@ -17,6 +17,7 @@ CMD:
 npm init
 npm install express
 node index.js(Can AI figure out the order of commands?)
+chmod -R 777
 
 NODE.js package:
 http
