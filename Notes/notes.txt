@@ -18,6 +18,10 @@ npm init
 npm install express
 node index.js(Can AI figure out the order of commands?)
 chmod -R 777
+git config http.postBuffer 524288000
+git push
+git config --help | grep -i -B 4 -A 10 "http.postBuffer"
+
 
 NODE.js package:
 http
