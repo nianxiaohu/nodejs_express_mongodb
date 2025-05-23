@@ -21,6 +21,16 @@ chmod -R 777
 git config http.postBuffer 524288000
 git push
 git config --help | grep -i -B 4 -A 10 "http.postBuffer"
+git diff
+# Automatic Server Restart with nodeman, --save option to have dependencies listed in package.json
+# --dev opotion is to specify we install nodemon for development purpose only
+#devDependencies
+
+
+npm install nodemon --save-dev
+
+npm start
+
 
 
 NODE.js package:
