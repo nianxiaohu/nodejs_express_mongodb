@@ -51,6 +51,7 @@ express
 QUESTIONS:
 what is the purpose of require function?
 what is serve-static?
+what is css vs min.css?
 
 
 CODE EXPLANATION:
@@ -65,3 +66,15 @@ Object.create
 
 
 JAVASCRIPT:
+
+HTML DOM objects
+7a
+<a> anchor
+<abbr> abbreviation
+<address>
+<area>
+<article>
+<aside>
+<audio>
+<b>
+
