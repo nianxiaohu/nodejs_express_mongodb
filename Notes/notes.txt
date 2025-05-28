@@ -62,7 +62,7 @@ proto
 init()
 app: { configurable: true, enumerable: true, writable: true, value: app }
 Object.create
-
+express.static('public')
 
 
 JAVASCRIPT:

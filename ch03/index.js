@@ -2,15 +2,21 @@ const express = require('express');
 const path = require('path');
 const path_2 = path;
 const app = new express();
+const test_flag = true;
 
 app.use(express.static('public'));
+// Serving multiple static folders
+app.use(express.static('startbootstrap-clean-blog-gh-pages'));
 
 app.listen(4000, () => {
     console.log('App listening on port 4000');
 });
 
 app.get('/', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'pages/index.html'))
+    if (test_flag ==true){
+        res.sendFile(path.resolve(__dirname, 'pages_xhu_test/index.html'));
+    }
+    else {res.sendFile(path.resolve(__dirname, 'pages/index.html'));}
 });
 
 app.get('/about', (req, res) => {
