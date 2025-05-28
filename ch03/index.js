@@ -4,9 +4,9 @@ const path_2 = path;
 const app = new express();
 const test_flag = true;
 
-app.use(express.static('public'));
-// Serving multiple static folders
-app.use(express.static('startbootstrap-clean-blog-gh-pages'));
+app.use('/static',express.static('public'));
+// Serving multiple static folders, /??/
+app.use('/static_',express.static('startbootstrap-clean-blog-gh-pages'));
 
 app.listen(4000, () => {
     console.log('App listening on port 4000');
