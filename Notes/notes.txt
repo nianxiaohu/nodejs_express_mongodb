@@ -52,6 +52,9 @@ QUESTIONS:
 what is the purpose of require function?
 what is serve-static?
 what is css vs min.css?
+what is ~ and ^ in package.json?
+what is @@ -9,3 +9,44 @@ callback function?
+
 
 
 CODE EXPLANATION:
@@ -63,6 +66,26 @@ init()
 app: { configurable: true, enumerable: true, writable: true, value: app }
 Object.create
 express.static('public')
+
+SYM:
+Expand/Collpase file tree
+Filter options
+Expand all lines:
+Collapse non-diff lines:
+View file
+
+
+view setting
+expand/collapse file
+more options
+file diff
+Add comment
+Copy file name to clipboard
+lines changed
+number of repositories that depend on
+unified/split
+display source diff
+tilde/caret 
 
 
 JAVASCRIPT:
