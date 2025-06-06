@@ -125,3 +125,28 @@ HTML DOM objects
 <em>
 
 
+MongoDB
+links:
+https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/#std-label-install-mdb-community-macos
+
+
+Collection---entity
+documents
+Binary json
+Mongoose(ODM)
+flexible data model
+schema define field and type --structure of colleciton documents
+const blog = new Schema({
+  title: String,
+  slug: String,})
+Models take your schema and apply it to each document in the Collection
+Models are responsible for CRUD
+const Blog = mongoose.model('Blog', blog);--Blog translates to blogs collection
+blogs collection
+
+
+brew services start mongodb-community@8.0
+mongod --config /opt/homebrew/etc/mongod.conf --fork
+
+mongosh -- mongodb shell
+show dbs
