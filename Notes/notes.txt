@@ -54,6 +54,8 @@ what is serve-static?
 what is css vs min.css?
 what is ~ and ^ in package.json?
 what is @@ -9,3 +9,44 @@ callback function?
+what is require vs import?
+buffering timed out after 10000ms for doc.save()?
 
 
 
@@ -148,5 +150,14 @@ blogs collection
 brew services start mongodb-community@8.0
 mongod --config /opt/homebrew/etc/mongod.conf --fork
 
-mongosh -- mongodb shell
+_id property
+
+
+
+Mongosh(JavaScript and Node.js REPL environment for interacting with MongoDB deployment):
 show dbs
+use db_name
+show collections
+db.collection_name.drop()
+db.collection_name.find()
+
