@@ -161,3 +161,6 @@ show collections
 db.collection_name.drop()
 db.collection_name.find()
 
+MongoDB Compass
+Install MongoDB Compass
+GUI
