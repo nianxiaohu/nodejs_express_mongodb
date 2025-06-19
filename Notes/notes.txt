@@ -167,3 +167,7 @@ GUI
 
 
 Improvement:
+support file upload
+support multiple files upload
+use MongodDB on the cloud
+where to save image blob?
