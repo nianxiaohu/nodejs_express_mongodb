@@ -23,11 +23,11 @@ const flash = require('connect-flash');
 
 app.use(fileUpload());
 
-mongoose.connect('mongodb://localhost/my_database', { 
-    useCreateIndex: true,
+mongoose.connect('mongodb://localhost/my_database', {
+    //useCreateIndex: true, //not supported
     useNewUrlParser: true,
-    useUnifiedTopology: true, 
-    useNewUrlParser: true 
+    useUnifiedTopology: true,
+    useNewUrlParser: true
 });
 
 app.use(bodyParser.json());
@@ -55,7 +55,7 @@ app.use(expressSession({
 
 global.loggedIn = null;
 
-app.use("*", (req, res, next) => {
+app.use('/*splat', (req, res, next) => {
     loggedIn = req.session.userId;
     next();
 });

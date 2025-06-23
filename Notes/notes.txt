@@ -56,6 +56,11 @@ what is ~ and ^ in package.json?
 what is @@ -9,3 +9,44 @@ callback function?
 what is require vs import?
 buffering timed out after 10000ms for doc.save()?
+how to resolve module dependency issue?
+where is downloaded video path?
+what is effect of --legacy-peer-deps?
+top NPM commands?
+usage senario of lock file?
 
 
 
@@ -167,7 +172,6 @@ GUI
 
 
 Improvement:
-support file upload
 support multiple files upload
 use MongodDB on the cloud
 where to save image blob?
