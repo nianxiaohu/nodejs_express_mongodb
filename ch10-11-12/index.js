@@ -55,7 +55,7 @@ app.use(expressSession({
 
 global.loggedIn = null;
 
-app.use('/*splat', (req, res, next) => {
+app.use('/{*splat}', (req, res, next) => {
     loggedIn = req.session.userId;
     next();
 });
