@@ -39,7 +39,7 @@
                 <p class="post-meta">Posted by
                   <a href="#">
                     <% if (typeof blogposts[i].userid !="undefined" ) { %>
-                      <%= blogposts[i].userid %>
+                      <%= blogposts[i].userid.username %>
                         <% } %>
                   </a>
                   on <%= blogposts[i].datePosted.toDateString() %>

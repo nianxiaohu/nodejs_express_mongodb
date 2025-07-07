@@ -24,7 +24,7 @@
                 <span class="meta">Posted by
                   <a href="#">
                     <% if (typeof blogpost.userid !="undefined" ) { %>
-                      <%= blogpost.userid %>
+                      <%= blogpost.userid.username %>
                         <% } %>
                   </a>
                   on <%= blogpost.datePosted.toDateString() %></span>

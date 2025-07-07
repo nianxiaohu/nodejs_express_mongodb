@@ -1,7 +1,7 @@
 const BlogPost = require('../models/BlogPost.js');
 const User = require('../models/User.js');
 module.exports = async (req, res) => {
-    const blogposts = await BlogPost.find({});
+    const blogposts = await BlogPost.find({}).populate('userid').exec();
     for (let i = 0; i < blogposts.length; i++) {
         if (typeof blogposts[i].userid != "undefined") {
             console.log("home.js");
